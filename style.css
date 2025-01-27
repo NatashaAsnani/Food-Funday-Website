@@ -1,0 +1,332 @@
+.container-fluid{
+    overflow-x: hidden;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid rgb(220, 84, 0);
+}
+.nav-link.active{
+    border-bottom: 2px solid rgb(220, 84, 0);
+    font-weight: bold;
+}
+.logo{
+    width: 230px;
+}
+.food{
+    font-weight: 700;
+    font-size: 50pt;
+    color: rgb(220, 84, 0);
+}
+
+.dinner{
+    font-weight: 700;
+    font-size: 50pt;
+}
+
+.appear{
+    color: rgb(220, 84, 0);
+    font-size: xx-large;
+    font-weight: 500;
+    text-align: center;
+}
+
+.lorem{
+    color: white;
+    font-size: x-large;
+}
+
+.book{
+    background-color: rgb(220, 84, 0);
+    border: none;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.book:hover{
+    background-color: transparent;
+    border: 2px solid rgb(220, 84, 0);
+}
+
+.scroll-button {
+    position: absolute;
+    top: 390px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 62px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+.scroll-button::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    animation: moveDown 2s infinite;
+}
+
+@keyframes moveDown {
+    0% {
+        top: 20%;
+        opacity: 1;
+    }
+    90% {
+        top: 40%;
+        opacity: 1;
+    }
+    100% {
+        top: 40%;
+        opacity: 0;
+    }
+}
+
+.about{
+    background-color: gainsboro;
+    position: relative;
+}
+
+.about-img1{
+    width: 490px;
+    border: 15px solid white;
+    border-radius: 50%;
+}
+
+.about-img2{
+    position: absolute;
+    border: 15px solid whitesmoke;
+    border-radius: 50%;
+    top: 50px;
+    right: 70px;
+}
+
+.special{
+    position: relative;
+}
+
+.special1{
+    position: absolute;
+    left: 80px;
+}
+
+.special2{
+    position: absolute;
+    left: 480px;
+}
+
+.special3{
+    position: absolute;
+    left: 880px;
+}
+
+.item{
+    border: 5px solid white;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 3px solid white;
+}
+
+.text{
+    border: 2px solid white;
+    width: 250px;
+    height: 150px;
+}
+
+.specially:hover .middle {
+    opacity: 1;
+}
+
+.menu h1{
+    color: rgb(220, 84, 0);
+}
+
+.menu-items{
+    background-color: gainsboro;
+}
+
+.menu p{
+    font-size: larger;
+    text-align: justify;
+    padding-left: 25px;
+}
+
+.starters, .drinks, .dessert, .main-dish{
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu-items img{
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.menu-items h5{
+    color: rgb(220, 84, 0);
+}
+
+.des3{
+    height: 95px;
+    width: 95px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+
+@media (min-width:320px) and (max-width:400px){
+    .logo{
+        width: 100px;
+    }
+    .bg1{
+        height: 450px;
+        filter: blur(2px);
+    }
+    .dinner{
+        font-size: larger !important;
+    }
+    .appear{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .lorem{
+        font-size: 13px;
+    }
+    .book{
+        font-size: smaller;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .scroll-button{
+        display: none;
+    }
+    .about h4{
+        font-size: medium;
+        margin: 0px !important;
+        margin-top: 20px !important;
+    }
+    .about p{
+        margin-top: 20px !important;
+    }
+    .about-img1{
+        width: 300px;
+    }
+    
+    .about-img2{
+        display: none;
+    }
+    .special img{
+        height: 1500px;
+    }
+    .special p{
+        font-size: small !important;
+    }
+    .special1 .card, .special2 .card, .special3 .card, .special-cards img{
+        width: 260px !important;
+        height: 345px !important;
+    }
+    .special1{
+        left: 40px !important;
+        margin-top: 0px !important;
+    }
+    .special2{
+        left: 40px;
+        top: 610px;
+    }
+    .special3{
+        left: 40px;
+        top: 990px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+    .logo{
+        width: 150px;
+    }
+    .bg1{
+        height: 450px;
+        filter: blur(2px);
+    }
+    .dinner{
+        font-size: 40px !important;
+    }
+    .appear{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .lorem{
+        font-size: 16px;
+    }
+    .book{
+        font-size: medium;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    .scroll-button{
+        display: none;
+    }
+    .about h4{
+        font-size: medium;
+        margin: 0px !important;
+        margin-top: 20px !important;
+    }
+    .about p{
+        margin-top: 20px !important;
+    }
+    .about-img1{
+        width: 400px;
+    }
+    
+    .about-img2{
+        display: none;
+    }
+    .special img{
+        height: 1600px;
+    }
+    .special p{
+        font-size: medium !important;
+    }
+    .special1 .card, .special2 .card, .special3 .card, .special-cards img{
+        width: 340px !important;
+        height: 360px !important;
+    }
+    .special1{
+        left: 40px !important;
+        margin-top: 0px !important;
+    }
+    .special2{
+        left: 40px;
+        top: 680px;
+    }
+    .special3{
+        left: 40px;
+        top: 1100px;
+    }
+}
