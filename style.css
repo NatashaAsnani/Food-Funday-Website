@@ -245,105 +245,6 @@
     outline: none;
 }
 
-/* .gallery1{
-    width: 850px;
-    height: 400px;
-  }
-
-  .gall2{
-    padding-left: 55px;
-  }
-
-  .gallery2{
-    width: 345px;
-    height: 400px;
-  }
-
-  .second-gallery{
-    margin-top: -40px;
-  }
-
-  .gallery3{
-    width: 435px;
-    height: 340px;
-  }
-
-  .gallery4{
-    width: 410px;
-    height: 340px;
-  }
-
-  .gallery5{
-    width: 345px;
-    height: 340px;
-  }
-
-  .gall4{
-    padding-left: 45px;
-  }
-
-  .gall5{
-    padding-left: 55px;
-  }
-
-  .gallery6{
-    width: 435px;
-    height: 400px;
-  }
-
-  .gall7{
-    padding-left: 45px;
-  }
-
-  .gallery7{
-    width: 764px;
-    height: 400px;
-  }
-
-  .gallery8{
-    width: 435px;
-    height: 340px;
-  }
-
-  .gallery9{
-    width: 405px;
-    height: 340px;
-  }
-
-  .gallery10{
-    width: 355px;
-    height: 340px;
-  }
-
-  .gall9{
-    padding-left: 45px;
-  }
-
-  .gall10{
-    padding-left: 48px;
-  }
-
-  .middle1 {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-}
-
-.col22 {
-    position: relative;
-}
-
-.col22:hover .gallery1, .col22:hover .gallery2, .col22:hover .gallery3, .col22:hover .gallery4, .col22:hover .gallery5, .col22:hover .gallery6, .col22:hover .gallery7 , .col22:hover .gallery8, .col22:hover .gallery9, .col22:hover .gallery10 {
-    opacity: 0.2;
-}
-
-.col22:hover .middle1 {
-    opacity: 1;
-} */
-
 .middle1 {
     transition: .5s ease;
     opacity: 0;
@@ -492,11 +393,6 @@
     border-style: dotted;
 }
 
-/* .logo2{
-    padding-left: 480px;
-    width: 780px;
-} */
-
 .about-head{
     color: rgb(220, 84, 0);
     font-family: "Lobster", sans-serif;
@@ -509,7 +405,7 @@
 
 @media (min-width:320px) and (max-width:500px){
     .logo{
-        width: 100px;
+        width: 120px;
     }
     .bg1{
         height: 450px;
@@ -526,7 +422,7 @@
         font-size: 16px;
     }
     .book{
-        font-size: smaller;
+        font-size: small;
         padding-left: 25px;
         padding-right: 25px;
         padding-top: 8px;
@@ -1063,6 +959,14 @@
     .item{
         width: 21rem;
     }
+    .middle {
+        top: 78%;
+        left: 58%;
+    }
+    .text{
+        width: 310px;
+        height: 150px;
+    }
     .menu-items button{
         font-size: xx-large !important;
     }
@@ -1164,6 +1068,14 @@
     }
     .item{
         width: 25rem;
+    }
+    .middle {
+        top: 82%;
+        left: 68%;
+    }
+    .text{
+        width: 395px;
+        height: 180px;
     }
     .menu-items button{
         font-size: xx-large !important;
@@ -1298,6 +1210,20 @@
     }
     .item{
         width: 27rem;
+    }
+    .middle {
+        top: 73%;
+        left: 75%;
+    }
+    .text{
+        width: 425px;
+        height: 280px;
+    }
+    .text h4{
+        font-size: 40px !important;
+    }
+    .text p{
+        font-size: 30px !important;
     }
     .menu-items button{
         font-size: 40px !important;
@@ -1476,6 +1402,20 @@
     .team-body h3{
         font-size: 35px;
     }
+    .middle {
+        top: 74%;
+        left: 82%;
+    }
+    .text{
+        width: 455px;
+        height: 300px;
+    }
+    .text h4{
+        font-size: 40px !important;
+    }
+    .text p{
+        font-size: 30px !important;
+    }
     .footer i{
         font-size: x-large !important;
     }
@@ -1629,6 +1569,20 @@
     }
     .item{
         width: 34rem;
+    }
+    .middle {
+        top: 78%;
+        left: 95%;
+    }
+    .text{
+        width: 530px;
+        height: 300px;
+    }
+    .text h4{
+        font-size: 50px !important;
+    }
+    .text p{
+        font-size: 35px !important;
     }
     .menu h1{
         font-size: 80px;
@@ -1857,6 +1811,20 @@
     }
     .item{
         width: 45rem;
+    }
+    .middle {
+        top: 78%;
+        left: 125%;
+    }
+    .text{
+        width: 715px;
+        height: 390px;
+    }
+    .text h4{
+        font-size: 60px !important;
+    }
+    .text p{
+        font-size: 40px !important;
     }
     .menu h1{
         font-size: 80px;
@@ -2089,6 +2057,20 @@
     }
     .item{
         width: 55rem;
+    }
+    .middle {
+        top: 78%;
+        left: 153%;
+    }
+    .text{
+        width: 870px;
+        height: 480px;
+    }
+    .text h4{
+        font-size: 70px !important;
+    }
+    .text p{
+        font-size: 50px !important;
     }
     .menu h1{
         font-size: 100px;
