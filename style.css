@@ -1,7 +1,9 @@
 .container-fluid{
     overflow-x: hidden;
 }
-
+.nav-link{
+    font-size: large !important;
+}
 .nav-link:hover{
     border-bottom: 2px solid rgb(220, 84, 0);
 }
@@ -100,7 +102,15 @@
     background-color: gainsboro;
     position: relative;
 }
-
+.about h1{
+    font-size: 40px;
+}
+.about h4{
+    font-size: 28px;
+}
+.about p{
+    font-size: 20px;
+}
 .about-img1{
     width: 490px;
     border: 15px solid white;
@@ -169,6 +179,10 @@
     color: rgb(220, 84, 0);
 }
 
+.menu-items p{
+    font-size: 18px;
+}
+
 .des3{
     height: 95px;
     width: 95px;
@@ -176,6 +190,320 @@
 
 .btn:focus{
     box-shadow: none;
+}
+
+.team{
+    position: relative;
+}
+
+.fb{
+    border: 1px solid;
+    border-radius: 50%;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.twit, .in{
+    border: 1px solid;
+    border-radius: 50%;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.team-card:hover .team-body, .team-card:hover .footer {
+    background-color: rgba(220, 84, 0, 0.959);
+}
+
+.footer, .team-body{
+    background-color: white;
+    color: black;
+}
+
+.team-card:hover .twit, .team-card:hover .fb, .team-card:hover .in {
+    background-color: white;
+    border: none;
+}
+
+.team-card:hover .team-body {
+    color: white;
+}
+
+.img {
+    transition: filter 0.5s;
+}
+
+.team-card:hover .img {
+    filter: brightness(70%);
+}
+
+.team-card{
+    border: none;
+    outline: none;
+}
+
+/* .gallery1{
+    width: 850px;
+    height: 400px;
+  }
+
+  .gall2{
+    padding-left: 55px;
+  }
+
+  .gallery2{
+    width: 345px;
+    height: 400px;
+  }
+
+  .second-gallery{
+    margin-top: -40px;
+  }
+
+  .gallery3{
+    width: 435px;
+    height: 340px;
+  }
+
+  .gallery4{
+    width: 410px;
+    height: 340px;
+  }
+
+  .gallery5{
+    width: 345px;
+    height: 340px;
+  }
+
+  .gall4{
+    padding-left: 45px;
+  }
+
+  .gall5{
+    padding-left: 55px;
+  }
+
+  .gallery6{
+    width: 435px;
+    height: 400px;
+  }
+
+  .gall7{
+    padding-left: 45px;
+  }
+
+  .gallery7{
+    width: 764px;
+    height: 400px;
+  }
+
+  .gallery8{
+    width: 435px;
+    height: 340px;
+  }
+
+  .gallery9{
+    width: 405px;
+    height: 340px;
+  }
+
+  .gallery10{
+    width: 355px;
+    height: 340px;
+  }
+
+  .gall9{
+    padding-left: 45px;
+  }
+
+  .gall10{
+    padding-left: 48px;
+  }
+
+  .middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.col22 {
+    position: relative;
+}
+
+.col22:hover .gallery1, .col22:hover .gallery2, .col22:hover .gallery3, .col22:hover .gallery4, .col22:hover .gallery5, .col22:hover .gallery6, .col22:hover .gallery7 , .col22:hover .gallery8, .col22:hover .gallery9, .col22:hover .gallery10 {
+    opacity: 0.2;
+}
+
+.col22:hover .middle1 {
+    opacity: 1;
+} */
+
+.middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.col22 {
+    position: relative;
+}
+
+.col22:hover .gallery1, .col22:hover .gallery2, .col22:hover .gallery3, .col22:hover .gallery4, .col22:hover .gallery5, .col22:hover .gallery6, .col22:hover .gallery7 , .col22:hover .gallery8, .col22:hover .gallery9, .col22:hover .gallery10 {
+    opacity: 0.2;
+}
+
+.col22:hover .middle1 {
+    opacity: 1;
+}
+.equal-height {
+    height: 300px; /* Adjust as needed */
+    object-fit: cover; /* Ensures images fill the space without distortion */
+}
+.book1{
+    background-color: rgb(220, 84, 0);
+    border: none;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.book1:hover{
+    background-color: transparent;
+    border: 2px solid rgb(220, 84, 0);
+}
+
+.card-blog{
+    border: none;
+}
+
+.blog-cont{
+    background-color: rgb(0, 0, 0);
+}
+
+.blog-row{
+    padding-top: 50px;
+}
+
+.blog-cont .card-h {
+    border: none;
+}
+
+.blog-body h5{
+    color: rgb(220, 84, 0);
+    font-size: x-large;
+}
+
+.card-header{
+    background-color: rgb(220, 84, 0);
+    padding: 10px;
+}
+.card-header1{
+    background-color: rgb(237, 234, 234);
+    padding: 15px;
+}
+.p-card2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.p-card2:hover{
+    box-shadow: none !important;
+}
+
+.purchase{
+    background-color: rgb(220, 84, 0);
+    color: white;
+    padding: 10px;
+}
+
+.pricing-cards{
+    transition: transform 0.3s ease;
+}
+
+.pricing-cards:hover{
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.p1, .p2, .p3{
+    width: 220px;
+    padding-left: 150px;
+}
+
+.p-card2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.p-card2:hover{
+    box-shadow: none !important;
+}
+
+.form-select:focus, .form-control:focus{
+    box-shadow: none;
+    outline: none;
+}
+.table{
+    font-weight: bold; 
+    color: white; 
+    border: none;
+    padding: 15px;
+    background-color: rgb(220, 84, 0);
+}
+.table:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(220, 84, 0);
+}
+.news-row h1{
+    font-size: 45px;
+}
+.news-row p{
+    font-size: 25px;
+}
+
+.plane{
+    color: white;
+    background-color: rgb(220, 84, 0);
+    font-size: x-large;
+    padding: 15px;
+    border: 2px solid;
+    border-style: dotted;
+    cursor: pointer;
+}
+
+.plane:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(220, 84, 0);
+    border-style: dotted;
+}
+
+.email2{
+    border: 2px solid gainsboro;
+    border-style: dotted;
+}
+
+/* .logo2{
+    padding-left: 480px;
+    width: 780px;
+} */
+
+.about-head{
+    color: rgb(220, 84, 0);
+    font-family: "Lobster", sans-serif;
+}
+
+.about-head1{
+    color: rgb(220, 84, 0);
 }
 
 
@@ -227,6 +555,30 @@
     }
     .menu{
         font-size: medium;
+    }
+    .team-h p{
+        font-size: 15px !important;
+    }
+    .bg-fruit{
+        height: 180px !important;
+    }
+    .gal-cont{
+        margin-top: 1900px !important;
+    }
+    .input-group input::placeholder{
+        font-size: 13px !important;
+    }
+    .news-row h1{
+        font-size: xx-large;
+    }
+    .news-row p{
+        font-size: medium;
+    }
+    .news-img{
+        height: 300px;
+    }
+    .footer-img{
+        height: 900px;
     }
 }
 @media (min-width:501px) and (max-width:650px){
@@ -289,6 +641,32 @@
     }
     .menu{
         font-size: medium;
+    }
+    .card-row{
+        padding-top: 140px;
+    }
+    .team-h h1{
+        padding-top: 25px;
+        font-size: 45px !important;
+    }
+    .team-h p{
+        padding-top: 35px;
+        font-size: larger !important;
+    }
+    .gal-cont{
+        margin-top: 2400px !important;
+    }
+    .news-row h1{
+        font-size: 40px;
+    }
+    .news-row p{
+        font-size: large;
+    }
+    .news-img{
+        height: 300px;
+    }
+    .footer-img{
+        height: 900px;
     }
 }
 @media (min-width:651px) and (max-width:750px){
@@ -358,6 +736,33 @@
     }
     .middle{
         left: 55%;
+    }
+    .team-h h1{
+        font-size: 46px;
+    }
+    .bg-fruit{
+        height: 300px !important;
+    }
+    .team-h p{
+        padding-top: 30px;
+    }
+    .card-row{
+        padding-top: 100px;
+    }
+    .gal-cont{
+        margin-top: 2700px !important;
+    }
+    .news-row h1{
+        font-size: xx-large;
+    }
+    .news-row p{
+        font-size: medium;
+    }
+    .news-img{
+        height: 300px;
+    }
+    .footer-img{
+        height: 900px;
     }
 }
 @media (min-width:751px) and (max-width:950px){
@@ -430,6 +835,27 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .team-h h1{
+        font-size: 46px;
+    }
+    .bg-fruit{
+        height: 1550px !important;
+    }
+    .team-h p{
+        padding-top: 30px;
+    }
+    .news-row h1{
+        font-size: xx-large;
+    }
+    .news-row p{
+        font-size: larger;
+    }
+    .news-img{
+        height: 300px;
+    }
+    .footer-img{
+        height: 500px;
+    }
 }
 @media (min-width:951px) and (max-width:991px){
     .logo{
@@ -485,10 +911,41 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .team-h h1{
+        font-size: 46px;
+    }
+    .bg-fruit{
+        height: 1600px !important;
+    }
+    .team-h p{
+        padding-top: 30px;
+    }
+    .gallery-h h1{
+        font-size: 35px !important;
+    }
+
+    .gallery-h p{
+        font-size: 30px !important;
+    }
+    .news-row h1{
+        font-size: xx-large;
+    }
+    .news-row p{
+        font-size: medium;
+    }
+    .news-img{
+        height: 300px;
+    }
+    .footer-img{
+        height: 500px;
+    }
 }
 @media (min-width:992px) and (max-width:1150px){
     .logo{
-        width: 210px;
+        width: 150px;
+    }
+    .nav-link{
+        font-size: medium !important;
     }
     .bg1{
         height: 650px;
@@ -539,6 +996,28 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .team-h h1{
+        font-size: 46px;
+    }
+    .team-h p{
+        padding-top: 30px;
+    }
+    .gallery-h h1{
+        font-size: 35px !important;
+    }
+
+    .gallery-h p{
+        font-size: 25px !important;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
+    }
+    .footer-img{
+        height: 500px;
+    }
 }
 @media (min-width:1151px) and (max-width:1280px){
     .scroll-button{
@@ -546,6 +1025,19 @@
     }
     .about-img2{
         right: 30px;
+    }
+    .gallery-h h1{
+        font-size: 40px !important;
+    }
+
+    .gallery-h p{
+        font-size: 30px !important;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
     }
 }
 @media (min-width:1281px) and (max-width:1400px){
@@ -579,6 +1071,43 @@
     }
     .menu-items p{
         font-size: large;
+    }
+    .blog-body p small{
+        font-size: large !important;
+    }
+    .book1{
+        font-size: x-large;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .gallery-h h1{
+        font-size: 35px !important;
+    }
+
+    .gallery-h p{
+        font-size: 25px !important;
+    }
+
+    .equal-height {
+        height: 400px; /* Adjust as needed */
+        /* object-fit: cover; Ensures images fill the space without distortion */
+    }
+    .text1 a i{
+        font-size: 30px !important;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
+    }
+    .headings h3{
+        font-size: 35px;
+    }
+    .headings p, .sandwich{
+        font-size: larger !important;
     }
 }
 @media (min-width:1401px) and (max-width:1600px){
@@ -622,7 +1151,6 @@
         width: 600px;
     }
     .about-img2{
-        /* top: 200px; */
         right: 100px;
     }
     .special h1{
@@ -645,6 +1173,68 @@
     }
     .menu-items p{
         font-size: 23px;
+    }
+    .team-h h1{
+        font-size: 53px !important;
+    }
+    .team-h p{
+        padding-top: 30px !important;
+        font-size: 30px !important;
+    }
+    .bg-fruit{
+        height: 1150px !important;
+    }
+    .gallery-h h1{
+        font-size: 45px !important;
+    }
+
+    .gallery-h p{
+        font-size: 30px !important;
+    }
+
+    .equal-height {
+        height: 500px; /* Adjust as needed */
+        /* object-fit: cover; Ensures images fill the space without distortion */
+    }
+    .text1 a i{
+        font-size: 40px !important;
+    }
+    .blog-body h5{
+        font-size: xx-large;
+    }
+    .blog-body p small{
+        font-size: large !important;
+    }
+    .book1{
+        font-size: x-large;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .input-group input{
+        padding: 20px;
+    }
+    .input-group input::placeholder{
+        font-size: 20px !important;
+    }
+    .person{
+        font-size: 40px !important;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
+    }
+    .headings h3{
+        font-size: 35px;
+    }
+    .headings p, .sandwich, .day{
+        font-size: larger !important;
+    }
+    .copy-row p{
+        font-size: larger;
     }
 }
 @media (min-width:1601px) and (max-width:1800px){
@@ -717,6 +1307,83 @@
     }
     .menu-items p{
         font-size: 27px;
+    }
+    .team{
+        margin-top: 100px !important;
+    }
+    .team-h h1{
+        font-size: 53px !important;
+    }
+    .team-h p{
+        padding-top: 30px !important;
+        font-size: 30px !important;
+    }
+    .footer i{
+        font-size: x-large !important;
+    }
+    .card-h h1{
+        font-size: 50px !important;
+    }
+    .gallery-h h1{
+        font-size: 45px !important;
+    }
+
+    .gallery-h p{
+        font-size: 30px !important;
+    }
+
+    .equal-height {
+        height: 500px; /* Adjust as needed */
+        /* object-fit: cover; Ensures images fill the space without distortion */
+    }
+    .text1 a i{
+        font-size: 50px !important;
+    }
+    .blog-body h5{
+        font-size: xx-large;
+    }
+    .blog-body p small{
+        font-size: larger !important;
+    }
+    .blog-body h6{
+        font-size: larger;
+    }
+    .book1{
+        font-size: x-large;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .price1-cards i{
+        font-size: x-large;
+    }
+    .price1-cards p{
+        font-size: x-large;
+    }
+    .input-group input{
+        padding: 30px;
+    }
+    .input-group input::placeholder{
+        font-size: 20px !important;
+    }
+    .person{
+        font-size: 40px !important;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
+    }
+    .headings h3{
+        font-size: 45px;
+    }
+    .headings p, .sandwich, .day{
+        font-size: x-large !important;
+    }
+    .copy-row p{
+        font-size: x-large;
     }
 }
 @media (min-width:1801px) and (max-width:2000px){
@@ -795,6 +1462,107 @@
     }
     .menu-items p{
         font-size: 27px;
+    }
+    .team{
+        margin-top: 100px !important;
+    }
+    .team-h h1{
+        font-size: 53px !important;
+    }
+    .team-h p{
+        padding-top: 30px !important;
+        font-size: 30px !important;
+    }
+    .team-body h3{
+        font-size: 35px;
+    }
+    .footer i{
+        font-size: x-large !important;
+    }
+    .gallery-h h1{
+        font-size: 60px !important;
+    }
+
+    .gallery-h p{
+        font-size: 40px !important;
+    }
+
+    .equal-height {
+        height: 500px; /* Adjust as needed */
+        /* object-fit: cover; Ensures images fill the space without distortion */
+    }
+    .text1 a i{
+        font-size: 40px !important;
+    }
+    .card-h h1{
+        font-size: 55px !important;
+    }
+    .blog-body h5{
+        font-size: 40px;
+    }
+    .blog-body p small{
+        font-size: 28px !important;
+    }
+    .blog-body h6{
+        font-size: 28px;
+    }
+    .book1{
+        font-size: 28px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .price1-cards i{
+        font-size: xx-large;
+    }
+    .price1-cards p{
+        font-size: xx-large;
+    }
+    .pricing-cards h4{
+        font-size: 35px;
+    }
+    .pricing-cards h1{
+        font-size: 80px;
+    }
+    .purchase{
+        font-size: 30px !important;
+    }
+    .input-group input{
+        padding: 30px;
+    }
+    .input-group input::placeholder{
+        font-size: 30px !important;
+    }
+    .person{
+        font-size: 40px !important;
+    }
+    .table{
+        font-size: 30px !important;
+    }
+    .reservee h1{
+        font-size: 60px;
+    }
+    .reservee h5{
+        font-size: 30px;
+    }
+    .reservee p{
+        font-size: 25px;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
+    }
+    .headings h3{
+        font-size: 45px;
+    }
+    .headings p, .sandwich, .day{
+        font-size: x-large !important;
+    }
+    .copy-row p{
+        font-size: x-large;
     }
 }
 @media (min-width:2001px) and (max-width:2300px){
@@ -883,6 +1651,131 @@
     .menu-items img{
 
         width: 170px !important;
+    }
+    .team{
+        margin-top: 100px !important;
+    }
+    .team-h h1{
+        font-size: 60px !important;
+    }
+    .team-h p{
+        padding-top: 35px !important;
+        font-size: 35px !important;
+    }
+    .team-body h3{
+        font-size: 40px;
+    }
+    .footer i{
+        font-size: 33px !important;
+    }
+    .fb{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    
+    .twit, .in{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .gallery-h h1{
+        font-size: 50px !important;
+    }
+
+    .gallery-h p{
+        font-size: 30px !important;
+    }
+
+    .equal-height {
+        height: 500px; /* Adjust as needed */
+        /* object-fit: cover; Ensures images fill the space without distortion */
+    }
+    .text1 a i{
+        font-size: 40px !important;
+    }
+
+    .card-h h1{
+        font-size: 60px !important;
+    }
+    .blog-body h5{
+        font-size: 40px;
+    }
+    .blog-body p small{
+        font-size: 28px !important;
+    }
+    .blog-body h6{
+        font-size: 28px;
+    }
+    .book1{
+        font-size: 28px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .price h1{
+        font-size: 60px;
+    }
+    .price1-cards i{
+        font-size: xx-large;
+    }
+    .price1-cards p{
+        font-size: xx-large;
+    }
+    .pricing-cards h4{
+        font-size: 50px;
+    }
+    .pricing-cards h1{
+        font-size: 80px;
+    }
+    .purchase{
+        font-size: 40px !important;
+        padding: 20px;
+    }
+    .card-header1 h3, .card-header1 h3 span{
+        font-size: 40px !important;
+    }
+    .input-group input{
+        padding: 30px;
+    }
+    .input-group input::placeholder{
+        font-size: 30px !important;
+    }
+    .person{
+        font-size: 40px !important;
+    }
+    .table{
+        font-size: 40px !important;
+    }
+    .reservee h1{
+        font-size: 60px;
+    }
+    .reservee h5{
+        font-size: 30px;
+    }
+    .reservee p{
+        font-size: 25px;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
+    }
+    .logo2{
+        width: 600px !important;
+    }
+    .headings h3{
+        font-size: 50px;
+    }
+    .headings p, .sandwich, .day{
+        font-size: xx-large !important;
+    }
+    .copy-row p{
+        font-size: xx-large;
     }
 }
 @media (min-width:2301px) and (max-width:2700px){
@@ -986,6 +1879,131 @@
     .menu-items img{
 
         width: 190px !important;
+    }
+    .team{
+        margin-top: 100px !important;
+    }
+    .team-h h1{
+        font-size: 75px !important;
+    }
+    .team-h p{
+        padding-top: 35px !important;
+        font-size: 45px !important;
+    }
+    .team-body h3{
+        font-size: 50px;
+    }
+    .footer i{
+        font-size: 38px !important;
+    }
+    .fb{
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    
+    .twit, .in{
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .gallery-h h1{
+        font-size: 60px !important;
+    }
+
+    .gallery-h p{
+        font-size: 40px !important;
+    }
+
+    .equal-height {
+        height: 500px; /* Adjust as needed */
+        /* object-fit: cover; Ensures images fill the space without distortion */
+    }
+    .text1 a i{
+        font-size: 50px !important;
+    }
+    .card-h h1{
+        font-size: 70px !important;
+    }
+    .blog-body h5{
+        font-size: 50px;
+    }
+    .blog-body p small{
+        font-size: 35px !important;
+    }
+    .blog-body h6{
+        font-size: 35px;
+    }
+    .book1{
+        font-size: 38px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .price h1{
+        font-size: 60px;
+    }
+    .price1-cards i{
+        font-size: 40px;
+    }
+    .price1-cards p{
+        font-size: 40px;
+    }
+    .pricing-cards h4{
+        font-size: 50px;
+    }
+    .pricing-cards h1{
+        font-size: 80px;
+    }
+    .purchase{
+        font-size: 40px !important;
+        padding: 20px;
+    }
+    .card-header1 h3, .card-header1 h3 span{
+        font-size: 50px !important;
+    }
+    .input-group input{
+        padding: 30px;
+    }
+    .input-group input::placeholder{
+        font-size: 40px !important;
+    }
+    .person{
+        font-size: 40px !important;
+    }
+    .table{
+        font-size: 50px !important;
+    }
+    .reservee h1{
+        font-size: 70px;
+    }
+    .reservee h5{
+        font-size: 40px;
+    }
+    .reservee p{
+        font-size: 35px;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
+    }
+    .logo2{
+        width: 600px !important;
+    }
+    .headings h3{
+        font-size: 50px;
+    }
+    .headings p, .sandwich, .day{
+        font-size: xx-large !important;
+    }
+    .copy-row p{
+        font-size: xx-large;
     }
 }
 @media (min-width:2701px) and (max-width:3000px){
@@ -1092,5 +2110,142 @@
     }
     .menu-items img{
         width: 210px !important;
+    }
+    .team{
+        margin-top: 100px !important;
+    }
+    .team-h h1{
+        font-size: 75px !important;
+    }
+    .team-h p{
+        padding-top: 35px !important;
+        font-size: 45px !important;
+    }
+    .team-body h3{
+        font-size: 50px;
+    }
+    .footer i{
+        font-size: 38px !important;
+    }
+    .fb{
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    .twit, .in{
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .gallery-h h1{
+        font-size: 80px !important;
+    }
+
+    .gallery-h p{
+        font-size: 50px !important;
+    }
+
+    .equal-height {
+        height: 700px;
+    }
+    .text1 a i{
+        font-size: 70px !important;
+    }
+    .blog-cont{
+        margin-top: 200px !important;
+    }
+    .card-h h1{
+        font-size: 80px !important;
+    }
+    .blog-body h5{
+        font-size: 60px;
+    }
+    .blog-body p small{
+        font-size: 40px !important;
+    }
+    .blog-body h6{
+        font-size: 40px;
+    }
+    .book1{
+        font-size: 50px;
+        padding-left: 180px;
+        padding-right: 180px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .blog-row{
+        padding-top: 150px;
+    }
+    .card-blog{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .blog-img{
+        width: 400px;
+    }
+    .price h1{
+        font-size: 70px;
+    }
+    .price1-cards i{
+        font-size: 45px;
+    }
+    .price1-cards p{
+        font-size: 45px;
+    }
+    .pricing-cards h4{
+        font-size: 60px;
+    }
+    .pricing-cards h1{
+        font-size: 100px;
+    }
+    .purchase{
+        font-size: 45px !important;
+        padding: 30px;
+    }
+    .card-header1 h3, .card-header1 h3 span{
+        font-size: 50px !important;
+    }
+    .input-group input{
+        padding: 45px;
+    }
+    .input-group input::placeholder{
+        font-size: 45px !important;
+    }
+    .person{
+        font-size: 40px !important;
+    }
+    .table{
+        font-size: 45px !important;
+    }
+    .reservee h1{
+        font-size: 80px;
+    }
+    .reservee h5{
+        font-size: 45px;
+    }
+    .reservee p{
+        font-size: 35px;
+    }
+    .news-row h1{
+        font-size: 50px;
+    }
+    .news-row p{
+        font-size: x-large;
+    }
+    .logo2{
+        width: 700px !important;
+    }
+    .headings h3{
+        font-size: 60px;
+    }
+    .headings p, .sandwich, .day{
+        font-size: 40px !important;
+    }
+    .copy-row p{
+        font-size: 40px;
     }
 }
